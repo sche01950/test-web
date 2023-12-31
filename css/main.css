@@ -24,9 +24,12 @@ h3 {
     font-size: 20px;
 }
 
+/* .nav-all controls banner image engulfing nav and search bar */
+
 .nav-all {
     background: url("../images/banner.jpg") no-repeat center -75px;
     border-radius: 10px;
+    box-shadow: 5px 5px #fff;
     padding: 1em;
 }
 
@@ -51,7 +54,7 @@ h3 {
 .main-nav a {
     text-decoration: none;
     color: #41536b;
-    background-color: white;
+    background-color: #fff;
     padding: 5px 10px;
     border-radius: 10px;
     box-shadow: 2.5px 5px;
@@ -59,7 +62,7 @@ h3 {
 
 .main-nav a:hover {
     text-decoration: none;
-    color: white;
+    color: #fff;
     background-color: #41536b;
     padding: 5px 10px;
     border-radius: 10px;
@@ -75,11 +78,121 @@ h3 {
 .nav-search input {
     margin-bottom: 1.5em;
     border-radius: 5px;
+    border: none;
+    box-shadow: 2.5px 5px #41536b;
     text-align: center;
     width: 50%;
-    box-shadow: 2.5px 5px #41536b;
+    padding: 5px;
 }
 
 .nav-search button {
     box-shadow: 2.5px 5px #41536b;
+    border: none;
+    border-radius: 2.5px;
+    padding: 4px 5px;
+    background-color: #fff;
+    color: #41536b;
 }
+
+.nav-search button:hover {
+    background-color: #41536b;
+    color: #fff;
+}
+
+/* beginning of banner */
+
+.top-ban {
+    display: inline-block;
+    text-align: center;
+    margin: 2.5em;
+    padding: 100px;
+    background-color: #41536b;
+    box-shadow: 5px 5px #fff;
+    border-radius: 10px;
+}
+
+.top-ban h1, .top-ban p {
+    color: #fff;
+}
+
+h1 {
+    padding-bottom: 5px;
+}
+
+.site-h1 {
+    font-style: italic;
+    margin: 0 12.5px 10px 12.5px;
+    padding: 0 10px 5px 10px;
+    border-bottom: 2.5px solid #9bb4ca;
+}
+
+.top-ban p {
+    line-height: 25px;
+}
+
+.open-all {
+    background-color: #fff;
+    box-shadow: 5px 5px #41536b;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.learn-h2 {
+    text-align: center;
+    padding: 25px 0 15px 0;
+    font-size: 70px;
+}
+
+.open-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.divider {
+    display: block;
+    width: 75%;
+    margin: auto;
+    box-shadow: 5px 5px #41536b;
+    border-radius: 10px;
+}
+
+/* targetting the specific text within both open divs */
+/* lots of tomfoolery and excessive targetting here bare with me */
+
+.open-text {
+    display: inline-block;
+    background-color: #a5afbb;
+    margin-right: 10px;
+}
+
+.open-text h3 {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.open-text p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 22.5px;
+    padding: 5px;
+}
+
+.open-text-two {
+    display: inline-block;
+    background-color: #a5afbb;
+    margin-left: 10px;
+}
+
+.open-text-two h3 {
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+
+.open-text-two p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 22.5px;
+    padding: 5px;
+}
+
