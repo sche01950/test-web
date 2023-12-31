@@ -8,13 +8,13 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon-3.png">
 
     <!-- links for site to css and reset files -->
-    
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
-        rel="stylesheet">    
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
@@ -22,28 +22,30 @@
     <div class="container">
         <header class="masthead">
             <div class="nav-all">
-                <img src="../images/favicon-3.png" alt="animeforevan-logo" class="nav-image">
-                <nav class="main-nav">
-                    <ul class="nav-bar">
-                        <li><a href="index.html" class="home">Home</a></li>
-                        <li><a href="#">Anime Lists</a></li>
-                        <li><a href="#">Make Your Own List</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Secret Page</a></li>
-                        <form class="nav-search" action="#">
-                            <input type="text" placeholder="Search" name="search" class="search-style">
-                            <button type="submit" class="search-but"><i
-                                    class="fa-solid fa-magnifying-glass"></i></button>
-                        </form>
-                    </ul>
-                </nav>
+                <div class="nav-box">
+                    <img src="../images/favicon.png" alt="animeforevan-logo" class="nav-image">
+                    <nav class="main-nav">
+                        <ul class="nav-bar">
+                            <form class="nav-search" action="#">
+                                <input type="text" placeholder="Search" name="search" class="search-style">
+                                <button type="submit" class="search-but"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                            <li><a href="index.html" class="home">Home</a></li>
+                            <li><a href="#">Anime Lists</a></li>
+                            <li><a href="#">Games Lists</a></li>
+                            <li><a href="#">Make Your Own List</a></li>
+                            <li><a href="#">Secret Page</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
 
             <!-- nav ends and banner starts here -->
 
             <div class="top-ban">
                 <div class="site-h1">
-                    Welcome to Anime for Evan
+                    <h1>Welcome to Anime for Evan</h1>
                 </div>
             </div>
             <div class="top-text">
@@ -60,18 +62,63 @@
             <section class="max-mar learn-sec">
                 <div class="opening">
                     <img src="../images/celeste-eve.png" alt="celeste-eve" class="open-img">
-                    <div class="open-sec">
+                    <div class="open-flex">
                         <h2 class="learn-h2">What is Evan Watching/Playing Currently?</h2>
                         <div class="open-text">
-                            <h3>Evangelion: 3.0 You Can (Not) Redo</h3>
+                            <h3>Evangelion: 3.0 You Can (Not) Redo (ヱヴァンゲリオン新劇場版)</h3>
                         </div>
+                        <p> The third film in the Rebuild of Evangelion movie series
+                            the storyline departs markedly from where Evangelion 2.0 had ended, and is the first film in
+                            the Rebuild series to comprise of entirely new work. Its position in the telling of the
+                            story appears to correspond to the End of Evangelion segment of the original series. Very
+                            few of the story elements hinted at in the original preview from 2.0 remain in the final
+                            work. </p>
+
+                        <p>
+                            The story begins 14 years after the events of the previous film. Most of Nerv's original
+                            adult staff, sans Gendo and Fuyutsuki, now belong to an organization called Wille (German
+                            for "will"), led by Captain Misato Katsuragi, and including Eva pilots Asuka (in Eva-02) and
+                            Mari (in the new Eva-08), Toji's sister Sakura, and several new characters. Shinji has been
+                            absorbed inside Eva-01 all this time, which is now orbiting earth inside a giant cuboidal
+                            cross-shaped satellite.
+                        </p>
+
+                        <div class="open-text-2">
+                            <h3>Celeste</h3>
+                        </div>
+                        <p>The game follows a young woman named Madeline as she climbs the somewhat magical Celeste
+                            Mountain, facing opposition from both the mountain's natural obstacles and from within
+                            herself.</p>
+
+                        <p>Celeste's gameplay features fast and tight controls along a series of challenging platforming
+                            sublevels that make up a larger Chapter. It follows the simple to learn and hard to master
+                            controls that are a staple of its genre, and gameplay has often been compared to others,
+                            like Super Meat Boy. Seriously it's really fucking hard.</p>
                     </div>
                 </div>
             </section>
 
+            <!-- begin sections for randomizers -->
+            <section>
+                <div class="big-sec-mar">
+                    <h2 class="random-tit">Anime Randomizer</h2>
+                </div>
+                <p>Click the button for a randomized choice of anime from the premade list.</p>
+            </section>
 
+            <section>
+                <div class="big-sec-mar">
+                    <h2 class="random-tit">Games Randomizer</h2>
+                </div>
+                <p>Click the button for a randomized choice of games from the premade list.</p>
+            </section>
 
         </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2023 Anime for Evan, Inc. </P>
+            <p> All images and media are not owned by myself. </P>
+        </footer>
     </div>
 </body>
 

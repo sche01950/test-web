@@ -1,6 +1,85 @@
+html {
+    background-color: #9bb4ca;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: 16px;
+    
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.nav-all {
+    background: url("../images/banner.jpg") no-repeat center -75px;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.nav-box {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-image {
+    width: 125px;
+    margin-bottom: 5px;
+}
+
+/* margin auto and text-align style nav to center */
+
+.main-nav {
+    margin: auto;
+    text-align: top;
+    font-size: 1.25em;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #41536b;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2.5px 5px;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #41536b;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.nav-bar li {
+    margin-bottom: 1.25em;
+}
+
+/* search bar styling */
+
+.nav-search input {
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    box-shadow: 2.5px 5px #41536b;
+}
+
+.nav-search button {
+    box-shadow: 2.5px 5px #41536b;
 }
