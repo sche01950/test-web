@@ -7,7 +7,7 @@ html {
     max-width: 1200px;
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: 16px;
-    
+
 }
 
 h1 {
@@ -111,7 +111,8 @@ h3 {
     border-radius: 10px;
 }
 
-.top-ban h1, .top-ban p {
+.top-ban h1,
+.top-ban p {
     color: #fff;
 }
 
@@ -164,11 +165,13 @@ h1 {
 .open-text {
     background-color: #a5afbb;
     flex-basis: 100%;
-    margin-right: 10px;
+    border-radius: 10px;
 }
 
 .open-text h3 {
     font-size: 27.5px;
+    text-align: center;
+    line-height: 30px;
     padding: 10px;
 }
 
@@ -183,23 +186,47 @@ h1 {
 .open-text-two {
     background-color: #a5afbb;
     flex-basis: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .open-text-two h3 {
-    font-size: 30px;
+    font-size: 29px;
     text-align: center;
     padding: 10px;
 }
 
 .open-text-two p {
     font-size: 16px;
+    text-align: center;
     line-height: 22.5px;
     margin-top: 10px;
     padding: 10px;
 }
 
-/* hides longer text for easy formating */
-.hidden-mob {
-        display: none;
+.para-hover:hover {
+    transition-duration: 1s;
+    color: #fff;
+    background-color: #41536b;
 }
 
+/* hides longer text for easy formating */
+.hidden-mob {
+    display: none;
+}
+
+.big-sec-mar {
+    margin: 1em;
+}
+
+.warning {
+    margin-top: 10px;
+}
+
+.site-footer {
+    width: 100%;
+    font-size: 12px;
+    color: #41536b;
+    background-color: #fff;
+    padding: 10px;
+}
