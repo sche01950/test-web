@@ -324,3 +324,53 @@ h1 {
     padding: 40px 0;
     text-align: center;
 }
+
+/****************** DESKTOP STYLING ***************/
+
+@media screen and (min-width:760px) {
+    .nav-all {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* flex the div targetting nav list to make nav horizontal, .nav-search (display: block) puts it on seperate line) */
+
+    .web-nav {
+        display: flex;
+    }
+
+    .web-nav li {
+        margin: 20px;
+    }
+
+    .nav-search {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    input.search-style {
+        width: 90%;
+        margin: 0;
+        padding: 7.5px;
+    }
+
+    .fa-magnifying-glass {
+        width: 100%;
+    }
+
+    button.search-but {
+        padding: 7.5px 9px;
+    }
+
+    .nav-image {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+    }
+
+
+
+
+}
