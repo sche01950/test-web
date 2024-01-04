@@ -162,6 +162,8 @@ h1 {
     row-gap: 10px;
 }
 
+/* THIS IS THE "WHAT IS EVAN WATCHING/PLAYING CURRENTLY" SECTION */
+
 .open-text {
     background-color: #a5afbb;
     flex-basis: 100%;
@@ -211,12 +213,100 @@ h1 {
 }
 
 /* hides longer text for easy formating */
+
 .hidden-mob {
     display: none;
 }
 
+/* ^^^ upper hidden class is meant for web sizing */
+
+
+/***** BLOG SECTION FOR BLOGGING ******/
+
+.blog-tit {
+    font-size: 45px;
+    margin: 25px 0;
+    color: #fff;
+    font-style: italic;
+}
+
+.div-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.div-flex img {
+    display: block;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-grid-one,
+.blog-grid-two {
+    background-color: #41536b;
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.blog-grid-one {
+    margin-bottom: 10px;
+}
+
+.blog-grid-one p,
+.blog-grid-two p {
+    line-height: 1.25em;
+}
+
+.blog-grid-one h3,
+.blog-grid-two h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.blog-grid-one h4 {
+    color: rgb(255, 210, 62);
+    text-shadow: 0 0 10px #fff;
+}
+
+.blog-grid-one h4,
+.blog-grid-two h4 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+/* link (styling) to past rankings */
+
+.rank-link {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.rank-link:hover {
+    display: inline-block;
+    color: #41536b;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .big-sec-mar {
     margin: 1em;
+}
+
+.random-all {
+    background-color: #41536b;
+    color: #fff;
+    padding: 10px;
+}
+
+.random-two {
+    margin-bottom: 30px;
 }
 
 .warning {
@@ -228,5 +318,6 @@ h1 {
     font-size: 12px;
     color: #41536b;
     background-color: #fff;
-    padding: 10px;
+    padding: 40px 0;
+    text-align: center;
 }
