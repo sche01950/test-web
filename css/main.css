@@ -139,6 +139,7 @@ h1 {
 }
 
 .learn-h2 {
+    display: inline-block;
     font-style: italic;
     color: #41536b;
     text-align: center;
