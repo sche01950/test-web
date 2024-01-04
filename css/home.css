@@ -328,6 +328,11 @@ h1 {
 /****************** DESKTOP STYLING ***************/
 
 @media screen and (min-width:760px) {
+
+    html {
+        background-color: #41536b;
+    }
+
     .nav-all {
         display: flex;
         justify-content: center;
@@ -340,7 +345,7 @@ h1 {
     }
 
     .web-nav li {
-        margin: 20px;
+        margin: 20px 5px;
     }
 
     .nav-search {
@@ -370,7 +375,22 @@ h1 {
         justify-content: center;
     }
 
+    .top-ban {
+        background-color: #9bb4ca;
+    }
 
+    .top-ban h1,
+    .top-ban p {
+        color: #41536b;
+    }
+
+    .top-ban {
+        font-size: 18px;
+    }
+
+    .hidden-mob {
+        display: block;
+    }
 
 
 }
