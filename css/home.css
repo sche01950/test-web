@@ -376,7 +376,11 @@ h1 {
     }
 
     .top-ban {
-        background-color: #9bb4ca;
+        background-color: #a5afbb;
+    }
+
+    .site-h1 {
+        border-bottom: 3px double #41536b;
     }
 
     .top-ban h1,
@@ -387,9 +391,54 @@ h1 {
     .top-ban {
         font-size: 18px;
     }
+    
+    .open-all {
+        box-shadow: 5px 5px #a5afbb;
+    }
+    
+    /* vvv .hidden-mob reveals more text for web browsers */
 
     .hidden-mob {
         display: block;
+    }
+
+    /* griddying section */
+
+    .blog-grid-one,
+    .blog-grid-two {
+        background-color: #a5afbb;
+        color: #41536b;
+        padding: 30px 20px;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 5px 5px #fff;
+    }
+
+    .blog-grid-one {
+        margin-bottom: 20px;
+    }
+
+    .blog-grid-one p,
+    .blog-grid-two p {
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    /* end of griddying section */
+
+    .rank-link {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .rank-link:hover {
+        color: #a5afbb;
+        font-size: 16px;
+    }
+
+    .random-all {
+        background-color: #fff;
+        color: #41536b;
+        padding: 10px;
     }
 
 
