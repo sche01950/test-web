@@ -4,7 +4,6 @@ html {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
     font-family: 'Lato', Helvetica, sans-serif;
     font-size: 16px;
 
@@ -27,10 +26,12 @@ h3 {
 /* .nav-all controls banner image engulfing nav and search bar */
 
 .nav-all {
-    background: url("../images/banner.jpg") no-repeat center -75px;
-    border-radius: 10px;
-    box-shadow: 5px 5px #fff;
+    background: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 1em;
+    display: block;
+    width: 100%;
 }
 
 .nav-box {
@@ -60,12 +61,15 @@ h3 {
     box-shadow: 2.5px 5px;
 }
 
+/* ATTEMPTED NAV LINK ANIMATIONS */
+
+.main-nav a {
+    transition: all 0.75s ease-in-out;
+}
+
 .main-nav a:hover {
-    text-decoration: none;
     color: #fff;
     background-color: #41536b;
-    padding: 5px 10px;
-    border-radius: 10px;
     box-shadow: none;
 }
 
@@ -102,13 +106,13 @@ h3 {
 /* beginning of banner */
 
 .top-ban {
-    display: inline-block;
     text-align: center;
     margin: 1em;
     padding: 50px;
     background-color: #41536b;
     box-shadow: 5px 5px #fff;
     border-radius: 10px;
+    margin: none;
 }
 
 .top-ban h1,
@@ -129,6 +133,13 @@ h1 {
 
 .top-ban p {
     line-height: 25px;
+}
+
+/*-------------- CONTENT CLASS IS MAXWIDTH ON EVERYTHING BELOW NAV  --------------------*/
+
+.content {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .open-all {
@@ -269,8 +280,8 @@ h1 {
 }
 
 .blog-grid-one h4 {
-    color: rgb(255, 210, 62);
-    text-shadow: 0 0 10px #fff;
+    color: rgb(253, 212, 75);
+    text-shadow: 0 0 10px #41536b;
 }
 
 .blog-grid-one h4,
@@ -325,7 +336,11 @@ h1 {
     text-align: center;
 }
 
-/****************** DESKTOP STYLING ***************/
+
+
+/****************** DESKTOP STYLING ***********************/
+
+
 
 @media screen and (min-width:760px) {
 
@@ -336,6 +351,8 @@ h1 {
     .nav-all {
         display: flex;
         justify-content: center;
+        background-size: cover;
+        background-position: 0 -70px;
     }
 
     /* flex the div targetting nav list to make nav horizontal, .nav-search (display: block) puts it on seperate line) */
@@ -377,6 +394,7 @@ h1 {
 
     .top-ban {
         background-color: #a5afbb;
+        margin: 20px 50px;
     }
 
     .site-h1 {
@@ -391,11 +409,11 @@ h1 {
     .top-ban {
         font-size: 18px;
     }
-    
+
     .open-all {
         box-shadow: 5px 5px #a5afbb;
     }
-    
+
     /* vvv .hidden-mob reveals more text for web browsers */
 
     .hidden-mob {
